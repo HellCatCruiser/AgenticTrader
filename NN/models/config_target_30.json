@@ -1,10 +1,12 @@
 {
-    "input_dim": 17,
+    "input_dim": 23,
     "hidden_dim": 64,
     "num_layers": 2,
     "dropout": 0.2,
     "seq_len": 10,
     "target_horizon": 30,
     "learning_rate": 0.001,
-    "epochs": 10
+    "epochs": 10,
+    "weight_init_seed": 42,
+    "batch_size": 32
 }

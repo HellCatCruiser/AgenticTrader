@@ -1,5 +1,5 @@
 {
-    "input_dim": 17,
+    "input_dim": 23,
     "hidden_dim": 64,
     "num_layers": 2,
     "dropout": 0.2,
