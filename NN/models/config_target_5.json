@@ -1,13 +1,13 @@
 {
-    "input_dim": 23,
+    "input_dim": 17,
     "hidden_dim": 64,
     "num_layers": 2,
     "dropout": 0.2,
     "seq_len": 20,
     "target_horizon": 5,
     "learning_rate": 0.001,
-    "epochs": 100,
-    "weight_init_seed": 42,
+    "epochs": 25,
+    "weight_init_seed": 43,
     "batch_size": 32,
     "feature_cols": [
         "open",
@@ -26,12 +26,8 @@
         "cci",
         "williams_r",
         "rsi",
-        "adosc",
-        "1_day_target",
-        "10_day_target",
-        "15_day_target",
-        "20_day_target",
-        "25_day_target",
-        "30_day_target"
-    ]
+        "adosc"
+    ],
+    "target_col": "5_day_target",
+    "horizon": 5
 }
